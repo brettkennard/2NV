@@ -1,0 +1,107 @@
+[01/29/2015]
+     Released.: Version 1.8.0
+     Added....: External-to-Internal Tunnel Option (Thanks Johnny-Nohandle)
+     Added....: Debian OS/Version Validation Checks
+     Updated..: Contributor List in THANKS File
+     Modified.: Cosmetics
+
+[11/26/2014]
+     Released.: Version 1.7.0
+     Fixed....: Issue with Multiple easy-rsa Sample Directories
+     Fixed....: Issue where Script Initiation was Slow
+     Fixed....: Interface Listing
+     Added....: Additional Validation Checks
+     Removed..: Support for Ubuntu and RHEL-based OS.
+     Removed..: Unnecessary Input Requests
+
+[10/30/2014]
+     Released.: Version 1.6.1
+     Fixed....: easy-rsa Auto-Detection
+     Fixed....: Issue Creating VPN on Ubuntu 14
+     Fixed....: Cleaned Up Interfaces View
+     Modified.: Encryption Key Size is Now User Definable
+     Modified.: Cosmetics
+
+[07/13/2014]
+     Released.: Version 1.6.0
+     Added....: OS Auto-Detection
+     Added....: easy-rsa Auto-Detection (To Remove Workarounds)
+     Fixed....: Interfaces Not Showing Properly on RHEL-Based OS
+     Modified.: Cosmetics
+     Removed..: IPv6 Support (Broken, Only Temporary)
+     Removed..: dev-node Configuration
+
+[03/06/2014]
+     Released.: Version 1.5.1
+     Modified.: Cosmetics and Code Cleanup
+     Modified.: Masquerading (NAT) Question
+     Modified.: Renamed LICENSE to COPYING
+     Removed..: Unnecessary Client Config Questions
+     Removed..: Unnecessary Client Config Options
+
+[01/14/2014]
+     Released.: Version 1.5.0
+     Added....: Support For Red Hat and CentOS
+     Modified.: Cosmetics and Code Cleanup
+     Modified.: LICENSE
+     Modified.: README.md
+     Removed..: Unnecessary Update Option
+
+[09/17/2013]
+     Released.: Version 1.4.1
+     Modified.: Cosmetics and Code Cleanup
+     Removed..: Unnecessary Long Options
+
+[08/28/2013]
+     Released.: Version 1.4.0
+     Added....: Option to Increase Default Key Size to 2048 bits
+     Added....: Option to Automatically Enable IPv4 and IPv6 Forwarding
+     Added....: Option to Automatically Add IPTables Masquerading Rule
+     Added....: Option to Update BuildVPN Script
+     Modified.: Reverted Key Size to 1024 bits by Default
+
+[08/22/2013]
+     Released.: Version 1.3.4
+     Modified.: Increased Key Size to 2048 bits by Default
+
+[05/09/2013]
+     Released.: Version 1.3.3
+     Modified.: Moved Contributors to THANKS File
+
+[05/09/2013]
+     Released.: Version 1.3.2
+     Fixed....: Fixed Common Subject Issue (Fix for Issue #2)
+
+[01/28/2013]
+     Released.: Version 1.3.1
+     Modified.: Cosmetics (Fix for Issue #1)
+     Modified.: License
+
+[01/09/2013]
+     Released.: Version 1.3.0
+     Added....: List Available IP Address During Configuration
+     Added....: Check Permissions Statement
+     Added....: README.md
+     Fixed....: Logging Issue in OpenVPN Server Config
+
+[11/20/2012]
+     Released.: Version 1.2.0
+     Added....: Single File Client Configuration Export
+     Added....: Ability to Specify Client Configuration Name
+     Modified.: Cosmetics
+
+[11/02/2012]
+     Released.: Version 1.1.1
+     Added....: Additional Checks for Windows Clients
+     Added....: Additional Checks for Linux Clients
+     Added....: Ability to Route All Traffic Through VPN
+     Modified.: Removed Unnecessary Code in OS Check Statement
+     Modified.: Converted Menu If Statement to Case Statement
+     Modified.: Cosmetics
+     Fixed....: Issue Creating Certificates on Ubuntu
+
+[11/02/2012]
+     Released.: Version 1.1.0
+     Added....: Compatibility With Ubuntu 12.04
+     Added....: Ability to Specify Custom DNS
+     Modified.: Cosmetics
